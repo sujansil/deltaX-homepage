@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Choose your Delta X competition round.">
+  <title>Delta X · Choose your round</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header><p class="eyebrow">DELTA X</p><h1>Choose your round.</h1><p class="intro">Enter the round announced by your host.</p></header>
+    <div class="rounds" aria-label="Competition rounds">
+      <section class="card"><span class="number">01</span><h2>WizTime &amp;<br>Math Rally</h2><p>Quick questions. A team relay.</p><a id="r1" class="button" hidden>Enter Round 1 <span aria-hidden="true">↗</span></a><p id="r1-status" class="status">Link not configured</p></section>
+      <section class="card"><span class="number">02</span><h2>Level Up</h2><p>Tougher questions. Strategic power-ups.</p><a id="r2" class="button" hidden>Enter Round 2 <span aria-hidden="true">↗</span></a><p id="r2-status" class="status">Link not configured</p></section>
+      <section class="card muted"><span class="number">03</span><h2>Grand Finale</h2><p>The final challenge.</p><button class="button" disabled>Coming soon</button></section>
+    </div>
+    <noscript><p>Enable JavaScript to load the configured round links.</p></noscript>
+    <footer>Four minds. One team.</footer>
+  </main>
+</body>
+</html>
