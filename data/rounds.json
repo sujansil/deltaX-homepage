@@ -1,0 +1,16 @@
+{
+  "rounds": [
+    {
+      "enabled": true,
+      "url": "https://r1.deltax.pioneers-iiitb.online"
+    },
+    {
+      "enabled": false,
+      "url": ""
+    },
+    {
+      "enabled": false,
+      "url": ""
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="DeltaX. Think beyond the equation. Choose your round.">
+  <meta property="og:title" content="DeltaX — Think beyond the equation">
+  <meta property="og:description" content="What if you could play mathematics?">
+  <title>DeltaX — Think beyond the equation</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to rounds</a>
+  <div class="site-shell">
+    <header class="masthead" aria-label="Site header">
+      <div class="organizer"><img class="organizer-logo" src="assets/pioneers-symbol.png" alt="" aria-hidden="true"><span>PIONEERS <span class="middot">·</span> IIITB</span></div>
+      <span class="masthead-right">A MATHEMATICS EVENT <span class="header-index">/ 2026</span></span>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> THE COMPETITION</p>
+          <div class="brand" aria-label="DeltaX">
+            <img id="event-logo" src="assets/deltax-logo.png" alt="DeltaX event logo" hidden>
+            <span id="logo-fallback" class="brand-fallback" aria-hidden="true"><span class="delta">Δ</span>elta<span class="brand-x">X</span></span>
+          </div>
+          <h1 id="hero-heading">Think beyond<br>the equation<span class="period">.</span></h1>
+          <p class="hero-subtitle">What if you could play mathematics?</p>
+        </div>
+        <div class="math-art" aria-hidden="true">
+          <div class="graph-topline"><span>FIG. 01</span><span>BEYOND THE ORDINARY</span></div>
+          <svg id="math-graph" viewBox="0 0 520 400" xmlns="http://www.w3.org/2000/svg">
+            <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#272727" stroke-width=".7"/></pattern><clipPath id="graph-clip"><rect x="0" y="0" width="520" height="400"/></clipPath></defs>
+            <rect width="520" height="400" fill="url(#grid)"/>
+            <g clip-path="url(#graph-clip)">
+              <path class="axis" d="M0 200 H520 M260 0 V400"/>
+              <path class="graph-underlay" id="graph-underlay" d=""/>
+              <path class="graph-path" id="graph-path" d=""/>
+              <circle id="graph-point" cx="0" cy="0" r="4" fill="#E7E4DF" opacity="0"/>
+              <path class="point-cross" id="point-cross" d=""/>
+            </g>
+            <g class="graph-labels"><text x="274" y="18">y</text><text x="505" y="189">x</text><text x="247" y="214">0</text></g>
+          </svg>
+          <div class="graph-footline"><span>f(x,t) = sin(x − t) + 0.35 sin(3x + 0.6t)</span><span>∞ POSSIBILITIES</span></div>
+        </div>
+      </section>
+
+      <section class="rounds" id="rounds" aria-labelledby="rounds-heading">
+        <div class="section-intro"><div><p class="eyebrow section-kicker">YOUR NEXT MOVE</p><h2 id="rounds-heading">Choose your round<span class="period">.</span></h2></div><p class="section-aside">Three rounds. One challenge.</p></div>
+        <div class="round-grid" id="round-grid" aria-live="polite">
+          <article class="round-card locked"><div class="round-card-top"><span>01 / ROUND ONE</span><span class="status">LOCKED</span></div><div class="round-card-bottom"><h3>Round 1</h3><span>Not available yet</span></div></article>
+          <article class="round-card locked"><div class="round-card-top"><span>02 / ROUND TWO</span><span class="status">LOCKED</span></div><div class="round-card-bottom"><h3>Round 2</h3><span>Not available yet</span></div></article>
+          <article class="round-card locked"><div class="round-card-top"><span>03 / FINAL ROUND</span><span class="status">LOCKED</span></div><div class="round-card-bottom"><h3>Round 3</h3><span>Not available yet</span></div></article>
+        </div>
+        <p class="rounds-note" id="rounds-note">Rounds become available when announced by the organizers. This page updates automatically.</p>
+      </section>
+      <section class="closing" aria-label="Event tagline"><p class="closing-line" id="closing-line">Not just equations. A different way to think.</p></section>
+    </main>
+    <footer class="footer"><span>Δ DELTA X<span class="middot">·</span> PIONEERS, IIITB</span><span>THINK BEYOND THE EQUATION</span></footer>
+  </div>
+</body>
+</html>
